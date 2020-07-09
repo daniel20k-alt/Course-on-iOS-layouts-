@@ -15,15 +15,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="epU-0d-mZf">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="epU-0d-mZf">
+                                <rect key="frame" x="-596" y="0.0" width="1367" height="812"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="16" id="ySh-kC-aYu">
-                                <rect key="frame" x="99" y="306" width="175" height="200"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <stackView opaque="NO" contentMode="center" ambiguous="YES" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="ySh-kC-aYu">
+                                <rect key="frame" x="0.0" y="306" width="375" height="182"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ng-kh-0S8">
-                                        <rect key="frame" x="0.0" y="0.0" width="175" height="56"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="UcK-bq-uMF"/>
                                         </constraints>
@@ -34,18 +34,18 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t8b-TX-rpi">
-                                        <rect key="frame" x="15.666666666666671" y="72" width="144" height="56"/>
+                                        <rect key="frame" x="0.0" y="66" width="375" height="50"/>
                                         <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="18"/>
                                         <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                         <state key="normal" title="Privacy Policy" backgroundImage="button">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                     </button>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="mOg-Yg-9Co">
-                                        <rect key="frame" x="21.666666666666671" y="144" width="132" height="56"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="mOg-Yg-9Co">
+                                        <rect key="frame" x="0.0" y="132" width="375" height="50"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TMA-Dr-eHL">
-                                                <rect key="frame" x="0.0" y="0.0" width="61" height="56"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="182.66666666666666" height="50"/>
                                                 <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="18"/>
                                                 <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                                 <state key="normal" title="Treasure Map" backgroundImage="button">
@@ -53,7 +53,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y27-Bt-huH">
-                                                <rect key="frame" x="71" y="0.0" width="61" height="56"/>
+                                                <rect key="frame" x="192.66666666666663" y="0.0" width="182.33333333333337" height="50"/>
                                                 <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="18"/>
                                                 <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                                 <state key="normal" title="FAQ" backgroundImage="button">
@@ -61,6 +61,7 @@
                                                 </state>
                                             </button>
                                         </subviews>
+                                        <rect key="contentStretch" x="0.0" y="0.0" width="0.94999999999999996" height="1"/>
                                     </stackView>
                                 </subviews>
                                 <constraints>
@@ -79,10 +80,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="QiC-wA-7WY" firstAttribute="leading" secondItem="L1R-nN-lSh" secondAttribute="leadingMargin" constant="34" id="36T-PS-H3Q"/>
-                            <constraint firstItem="ySh-kC-aYu" firstAttribute="centerX" secondItem="epU-0d-mZf" secondAttribute="centerX" id="6ZU-me-gIj"/>
-                            <constraint firstItem="ySh-kC-aYu" firstAttribute="centerY" secondItem="epU-0d-mZf" secondAttribute="centerY" id="IAk-Hk-Bcp"/>
+                            <constraint firstItem="dks-c0-xhv" firstAttribute="trailing" secondItem="ySh-kC-aYu" secondAttribute="trailing" id="IvD-nN-9qI"/>
                             <constraint firstItem="dks-c0-xhv" firstAttribute="bottom" secondItem="QiC-wA-7WY" secondAttribute="bottom" constant="10" id="J5k-sm-kR5"/>
                             <constraint firstAttribute="trailingMargin" secondItem="QiC-wA-7WY" secondAttribute="trailing" constant="35" id="JuB-If-yiQ"/>
+                            <constraint firstItem="ySh-kC-aYu" firstAttribute="leading" secondItem="dks-c0-xhv" secondAttribute="leading" id="Zxt-TE-LyO"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="dks-c0-xhv"/>
                     </view>
