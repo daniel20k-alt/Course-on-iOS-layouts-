@@ -15,12 +15,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="epU-0d-mZf">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="epU-0d-mZf">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="16" id="ySh-kC-aYu">
-                                <rect key="frame" x="108" y="57" width="175" height="200"/>
+                                <rect key="frame" x="99" y="306" width="175" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ng-kh-0S8">
@@ -80,6 +79,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="QiC-wA-7WY" firstAttribute="leading" secondItem="L1R-nN-lSh" secondAttribute="leadingMargin" constant="34" id="36T-PS-H3Q"/>
+                            <constraint firstItem="ySh-kC-aYu" firstAttribute="centerX" secondItem="epU-0d-mZf" secondAttribute="centerX" id="6ZU-me-gIj"/>
+                            <constraint firstItem="ySh-kC-aYu" firstAttribute="centerY" secondItem="epU-0d-mZf" secondAttribute="centerY" id="IAk-Hk-Bcp"/>
                             <constraint firstItem="dks-c0-xhv" firstAttribute="bottom" secondItem="QiC-wA-7WY" secondAttribute="bottom" constant="10" id="J5k-sm-kR5"/>
                             <constraint firstAttribute="trailingMargin" secondItem="QiC-wA-7WY" secondAttribute="trailing" constant="35" id="JuB-If-yiQ"/>
                         </constraints>
